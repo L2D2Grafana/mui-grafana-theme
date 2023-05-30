@@ -1,0 +1,1 @@
+export { muiGrafanaTheme } from "./theme";
