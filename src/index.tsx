@@ -1,6 +1,6 @@
 import { config } from "@grafana/runtime";
 import { createTheme } from "@mui/material/styles";
-import { PaletteMode } from "@mui/material";
+import { PaletteMode, Theme } from "@mui/material";
 
 const themeOptions = () => {
   const mode: PaletteMode = config.theme2.isLight ? "light" : "dark";
@@ -101,4 +101,4 @@ const themeOptions = () => {
   };
 };
 
-export const muiGrafanaTheme = createTheme(themeOptions());
+export const muiGrafanaTheme: Theme = createTheme(themeOptions());
