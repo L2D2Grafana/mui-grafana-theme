@@ -12,8 +12,7 @@
     "module": "es6",
     "target": "es5",
     "allowJs": true,
-    "moduleResolution": "node",
-    "emitDeclarationOnly": true
+    "moduleResolution": "node"
   },
   "include": ["src/**/*", "@mui/material"],
   "exclude": ["./node_modules"]
