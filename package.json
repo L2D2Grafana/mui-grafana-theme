@@ -1,0 +1,22 @@
+{
+  "name": "mui-grafana-theme",
+  "version": "1.0.0",
+  "description": "Map grafana theme to material ui",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L2D2Grafana/mui-grafana-theme.git"
+  },
+  "author": "Grafana",
+  "license": "ISC",
+  "dependencies": {
+    "@grafana/runtime": "^9.5.2",
+    "@mui/material": "^5.13.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
