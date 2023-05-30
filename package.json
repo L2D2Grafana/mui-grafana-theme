@@ -1,6 +1,6 @@
 {
   "name": "@L2D2Grafana/mui-grafana-theme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Map grafana theme to material ui",
   "main": "dist/index.js",
   "scripts": {
