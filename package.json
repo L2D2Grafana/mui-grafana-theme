@@ -1,6 +1,6 @@
 {
   "name": "@L2D2Grafana/mui-grafana-theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Map grafana theme to material ui",
   "main": "dist/index.js",
   "scripts": {
@@ -19,6 +19,7 @@
   "devDependencies": {
     "typescript": "^5.0.4"
   },
+  "types": "./dist/index.d.ts",
   "publishConfig": {
     "@L2D2Grafana/registry": "https://npm.pkg.github.com/"
   }
