@@ -62,41 +62,20 @@ const themeOptions = () => {
     },
     palette: {
       mode,
-      ...(mode === "light"
-        ? {
-            // palette values for light mode
-            primary: { main: config.theme2.colors.primary.main },
-            secondary: { main: config.theme2.colors.secondary.main },
-            error: { main: config.theme2.colors.error.main },
-            warning: { main: config.theme2.colors.warning.main },
-            info: { main: config.theme2.colors.info.main },
-            success: { main: config.theme2.colors.success.main },
-            background: {
-              default: config.theme2.colors.background.primary,
-              secondary: config.theme2.colors.background.secondary,
-            },
-            text: {
-              primary: config.theme2.colors.text.primary,
-              secondary: config.theme2.colors.text.secondary,
-            },
-          }
-        : {
-            // palette values for dark mode
-            primary: { main: config.theme2.colors.primary.main },
-            secondary: { main: config.theme2.colors.secondary.main },
-            error: { main: config.theme2.colors.error.main },
-            warning: { main: config.theme2.colors.warning.main },
-            info: { main: config.theme2.colors.info.main },
-            success: { main: config.theme2.colors.success.main },
-            background: {
-              default: config.theme2.colors.background.primary,
-              secondary: config.theme2.colors.background.secondary,
-            },
-            text: {
-              primary: config.theme2.colors.text.primary,
-              secondary: config.theme2.colors.text.secondary,
-            },
-          }),
+      primary: { main: config.theme2.colors.primary.main },
+      secondary: { main: config.theme2.colors.secondary.main },
+      error: { main: config.theme2.colors.error.main },
+      warning: { main: config.theme2.colors.warning.main },
+      info: { main: config.theme2.colors.info.main },
+      success: { main: config.theme2.colors.success.main },
+      background: {
+        default: config.theme2.colors.background.primary,
+        secondary: config.theme2.colors.background.secondary,
+      },
+      text: {
+        primary: config.theme2.colors.text.primary,
+        secondary: config.theme2.colors.text.secondary,
+      },
     },
   };
 };
